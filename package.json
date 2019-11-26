@@ -11,7 +11,7 @@
     "test:cover": "cross-env NODE_ENV=test nyc mocha --require @babel/register --colors test/*.js",
     "repl": "node -i -e \"$(< ./lib/index.js)\"",
     "precommit-msg": "echo 'Pre-commit checks...' && exit 0",
-    "lint": "eslint ./src/*/*.js --fix",
+    "lint": "eslint ./src/*.js --fix",
     "test:lint": "eslint ./test/*.js --fix"
   },
   "pre-commit": [
