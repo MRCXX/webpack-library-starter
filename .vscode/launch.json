@@ -12,7 +12,7 @@
             "--colors",
             "./test/*.spec.js"
         ],
-        "console": "integratedTerminal",
+        "console": "internalConsole",
         "internalConsoleOptions": "neverOpen"
     }
   ]
