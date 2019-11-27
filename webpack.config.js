@@ -20,7 +20,7 @@ if (env === 'build') {
 const config = {
   mode: mode,
   entry: __dirname + '/src/index.js',
-  devtool: env === 'build' ? 'none' : 'cheap-eval-source-map',
+  devtool: env === 'build' ? '' : 'inline-source-map',
   output: {
     path: __dirname + '/lib',
     filename: outputFile,
